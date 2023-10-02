@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Backet</title>
+  </head>
+  <body>
+    <div class="container">
+      <input
+        class="input-basic input-product"
+        type="text"
+        placeholder="Название товара"
+        id="nameItem"
+      />
+      <input
+        class="input-basic input-price"
+        type="number"
+        placeholder="Цена"
+        id="namePrice"
+      />
+      <div class="button">
+        <a href="#" class="btn-add" id="create">+</a>
+      </div>
+
+      <div class="backet">
+        <p class="title">Ваш заказ:</p>
+        <div class="card" id="list">
+          <!-- <div class="card-item" >
+            <p class="card-title">Название товара</p>
+
+            <div class="buy">
+              <div class="card-total">
+                <div href="#" class="btn-minus btn" data-action="minus">-</div>
+                <div class="total" data-counter="">1</div>
+                <div href="#" class="btn-plus btn" data-action="plus">+</div>
+              </div>
+
+              <p class="price">0 ₽</p>
+            </div>
+          </div> -->
+        </div>
+
+        <p class="sum">Итого: <span class="sum-price">0</span> ₽</p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
